@@ -1,6 +1,7 @@
 <template>
 	<div class="hello">
 		<button @click="openApp()">点击打开APP</button>
+		<button @click="openxl()">唤醒新浪</button>
 	</div>
 </template>
 
@@ -35,6 +36,9 @@
 				};
 				const callLib = new CallApp(options);
 				callLib.open({});
+			},
+			openxl(){
+				
 			}
 		}
 	}
